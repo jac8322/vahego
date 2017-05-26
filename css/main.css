@@ -1,0 +1,859 @@
+/*
+Random Notes & Reminders to Self (remove when finished/etc)
+
+***MAKE SURE MARGINS/PADDING = 0 TO REMOVE RANDOM SPACES***
+
+Teko looks awful without letter spacing, ADD LETTER SPACING TO NEW TEKO TEXT
+
+in html:
+`target="_blank"` after link to open in new tab
+ex.:
+<a href="https://www.facebook.com/" target="_blank"></a>
+
+*/
+
+
+
+
+/* Body */
+
+body {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+}
+
+body .wrapper {
+    width: 80%;
+    padding: 0 10%;
+    overflow: hidden;
+}
+
+body .perma {
+    background-color: #361a11;
+    text-shadow: 1px 1px 1px red;
+    font-size: 100.01%;
+}
+
+/* Header */
+
+header {
+    background-color: rgba(54,26,17,.9);
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 1.5em;
+    color: #ffffff;
+    padding: 0;
+    margin-right: 0;
+    overflow: hidden;
+}
+
+header h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+}
+
+header h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+header h1 a:hover {
+    background-color: #361a11;
+    text-shadow: 1px 1px 1px red;
+    font-size: 100.01%;
+}
+
+
+header h2 {
+    font-size: .875em;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1.5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header nav {
+    background-color: #61001f;
+    font-family: 'Teko', sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+header nav ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+
+header nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0em 20px 0em;
+    transition: all .6s;
+}
+
+header nav a:hover {
+    background-color: #361a11;
+    text-shadow: 1px 1px 1px red;
+    font-size: 100.01%;
+}
+
+/* Hero */
+/* 
+background color is placeholder for image 
+to make hero image scroll behind page add fixed to the end of the background: line
+
+>
+ background: url(../img/hero2.jpg) no-repeat center center fixed;
+>
+
+Change the following body tag to .hero to change it back to hero-only image.
+Also change the background-color of .content-home back to a brown-ish color.
+
+*/
+
+body {
+    background: url(../img/hero2.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.hero h1 {
+    font-family: 'Lobster Two', sans-serif;
+    text-align: right; 
+    font-size: 400%;
+    color: #ffffff;
+    text-shadow: 3px 3px #212121;
+    margin-top: 20%;
+    margin-bottom: 26%;
+    letter-spacing: 3px;
+}
+
+/* Content (3 Columns) */
+
+.content-home {
+    padding: 0em;
+    padding-top: 3em;
+    background-color: rgba(0,0,0,.1)
+}
+
+.content-home img {
+    border-radius: 10%;
+    transition: all .6s;
+}
+
+.content-home img:hover {
+    border-radius: 0%;
+    box-shadow: 3px 3px #361a11;
+}
+
+.content-home p {
+    color: #faebd7;
+    text-shadow: 1px 1px #212121;
+}
+
+.content-home h4 {
+    color: #faebd7;
+    letter-spacing: 1.25px;
+    text-shadow: 1px 1px #212121;
+}
+
+.content-home h4 {
+    font-size: 1.5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.content-home p {
+    font-size: 1.5em;
+    margin-top: 0;
+    line-height: 1.25;
+}
+
+.content-home .col img {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}   
+/* Logistics (Top of Footer) */
+
+.logistics {
+    background-color: #61001f;
+    color: #ffffff;
+    margin-bottom: 0;
+    padding-top: 3em;
+    letter-spacing: 1px;
+}
+
+.logistics p {
+    margin: 0;
+}
+
+.logistics h2 {
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logistics h3 + p {
+    font-size: 1.4em;
+}
+ /* nav pin */
+
+.logistics img {
+    display: block;
+    width: 64px;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.logistics h3 {
+    font-size: 1.6em;
+    letter-spacing: 1.5px;
+    margin: 0;
+}
+
+.logistics .location {
+    padding-top: 3em;
+    padding-bottom: .2em;
+}
+
+.logistics .location a {
+    text-decoration: none;
+    color: white;
+    transition: all .6s;
+}
+
+.logistics .location a:hover {
+    text-shadow: 1px 1px 1px red;
+    font-size: 100.01%;
+}
+
+/* Footer */
+
+footer {
+    background-color: #61001f;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer .copyright {
+    margin-top: 0;
+    letter-spacing: 1px;
+    padding: 0;
+    padding-top: .5em;
+}
+
+footer nav {
+    background-color: #61001f;
+    padding: .1em 0;
+    text-align: center;
+    font-size: .75em;
+}
+
+footer li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all .6s;
+}
+
+footer ul {
+    margin: auto;
+    padding: 0;
+}
+
+/* images */
+
+footer .social-links {
+    margin: 0;
+    padding-top: .2em;
+}
+ 
+ /* words */
+footer nav .secondary-nav li {
+    font-size: 2em;
+     padding: 0em 10px;
+     margin: 0;
+}
+
+/* images */
+
+footer .fa {
+    font-size: 2em;
+    padding: 0em 5px 0em;
+}
+
+footer li a:hover {
+    text-shadow: 1px 1px 1px red;
+    font-size: 100.01%;
+}
+
+
+
+/*
+#############
+Products Page
+#############
+*/
+
+.content-products {
+    padding: 3em 0;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px black;
+    line-height: 1.25;
+}
+
+.content-products h2 {
+    color: white;
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content-products p {
+    color: white;
+    font-size: 2em;
+}
+
+.content-products ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.content-products li img {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    transition: all .6s;
+}
+
+.content-products li img:hover {
+    border-radius: 0%;
+    box-shadow: 3px 3px #361a11;
+}
+
+.content-products li h4 {
+    color: white;
+    font-size: 1.5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.content-products li p {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 0;
+    line-height: 1.25;
+}
+
+/* 
+News - Story Page 
+*/
+
+.story {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(54,26,17,.5);
+    border-radius: 10px;
+    letter-spacing: 1px;
+    padding-left: 1em;
+    padding-right: 1em;
+    overflow: hidden;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-shadow: 1px 1px black;
+    line-height: 1.25;
+}
+.story .left h2 {
+    font-size: 250%;
+    margin-bottom: 0em;
+    color: white;
+}
+
+.story .left img {
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.story .left h3 {
+    font-size: 200%;
+    color: white;
+}
+
+.story .left p {
+    font-size: 125%;
+    color: white;
+}
+
+.story .right form label {
+   display: inline;
+   font-size: 1.1em;
+   color: white;
+}
+
+
+.story .right form .btn {
+    padding: .5em;
+    margin-top: 10px;
+    background-color: rgba(54,26,17,0);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.story .right form .btn:hover {
+    background-color: #361a11;
+}
+
+.story .right h2 {
+    font-size: 250%;
+    margin-bottom: 0em;
+    color: white;
+}
+
+.story .right p {
+    font-size: 125%;
+    color: white;
+}
+
+.story h2 {
+    margin-top: 0;
+}
+
+.breadcrumbs a {
+    margin-bottom: 0;
+    color: white;
+    text-decoration: none;
+}
+
+/* News */
+
+.news {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(54,26,17,.5);
+    border-radius: 10px;
+    letter-spacing: 1px;
+    padding-left: 1em;
+    padding-right: 1em;
+    overflow: hidden;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-shadow: 1px 1px black;
+    line-height: 1.25;
+}
+
+.news .left h2 {
+    font-size: 250%;
+    margin-bottom: 0em;
+    color: white;
+}
+
+.news .left h6 {
+    font-size: 75%;
+    margin-bottom: 15%;
+    color: white;
+    margin-top: 2px;
+}
+
+.news .left img {
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    transition: all .6s;
+}
+
+.news .left img:hover {   
+	border-radius: 0%;
+    box-shadow: 3px 3px #361a11;}
+
+.news .left h3 {
+    font-size: 200%;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.news .left p {
+    font-size: 125%;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.news .right form label {
+   display: inline;
+   font-size: 1.1em;
+   color: white;
+}
+
+
+.news .right form .btn {
+    padding: .5em;
+    margin-top: 10px;
+    background-color: rgba(54,26,17,0);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.news .right form .btn:hover {
+    background-color: #361a11;
+}
+
+.news .right h2 {
+    font-size: 250%;
+    margin-bottom: 0em;
+    color: white;
+}
+
+.news .right p {
+    font-size: 125%;
+    color: white;
+}
+
+.news h2 {
+    margin-top: 0;
+}
+
+.news img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.news .art .artimage {
+    width: 100%;
+    height: auto;
+}
+
+.news .left ul {
+    list-style-type: none;
+}
+
+.news ul a {
+    text-decoration: none;
+    color: white; 
+    transition: all .6s;
+}
+
+.news ul a:hover {
+    text-shadow: 1px 1px 1px red;
+}
+
+
+/* About */
+
+.about {
+    text-align: left;
+    background-color: rgba(54,26,17,.5);
+    border-radius: 10px;
+    letter-spacing: 1px;
+    padding-left: 1em;
+    padding-right: 1em;
+    overflow: hidden;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-shadow: 1px 1px black;
+    line-height: 1.25;
+}
+
+.about p {
+    font-size: 125%;
+    color: white;
+    margin-top: 0;
+}
+
+.about .aboutside p {
+    margin-bottom: 8px;
+}
+
+.about form label {
+   display: inline;
+   font-size: 1.1em;
+   color: white;
+   padding: 2%;
+   padding-left: 0;
+}
+
+
+.about form .btn {
+    padding: .5em;
+    margin-top: 15px;
+    background-color: rgba(54,26,17,0);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.about form .btn:hover {
+    background-color: #361a11;
+}
+
+.about h2 {
+    font-size: 250%;
+    margin-bottom: 0em;
+    color: white;
+}
+
+.about h3 {
+    font-size: 200%;
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: rgba(54,26,17,.75);
+    border-radius: 10px;
+    }
+
+.about h4 {
+    font-size: 120%;
+    color: white;
+    margin-bottom: 4px;
+    margin-top: 8px;
+}
+
+.about a {
+    text-decoration: none;
+    color: white;
+    transition: all .6s;
+}
+
+.about ul {
+	padding-left: 5%;
+}
+
+.about ul li p {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.about a:hover {
+    text-shadow: 1px 1px 1px red;
+}
+
+.about ul li {
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 12px;
+}
+
+
+/* 
+####################
+Desktop View Changes 
+####################
+*/
+
+@media screen and (min-width: 60em){
+
+/* Body (all) */
+
+body {
+    font-size: 100%;
+}
+
+/* Header */
+
+header .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+    width: 45%;
+    float: left;
+    text-align: left;
+    margin-left: 5%;
+}
+
+
+header nav {
+    width: 40%;
+    text-align: right;
+    float: left;
+    background-color: transparent;
+    margin-left: 0;
+    padding-left: 0;
+    line-height: 100px;
+}
+
+/* Hero */
+
+/* Content-Home */
+
+.content-home .col {
+    width: 28.3333%;
+    float: left;
+    margin-right: 5%;
+    padding-bottom: 4em;
+    padding-top: 4em;
+    font-size: 105%;
+}
+
+/* Logistics */
+
+.logistics {
+    padding-bottom: 4em;
+}
+
+.logistics .hours {
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+}
+
+.logistics .location {
+    width: 45%;
+    float: right;
+    margin-left: 5%;
+}
+
+/* Footer */
+
+.copyright {
+    width: 28.3333%;
+    float: left;
+    margin-right: 5%;
+    padding: 0em 0 0em;
+}
+
+.social-links {
+    width: 28.3333%;
+    float: left;
+    margin-right: 5%;
+}
+
+.secondary-nav {
+    width: 28.3333%;
+    float: left;
+    margin-right: 5%;
+}
+
+
+/* Products Page */
+
+.content-products ul li {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+}
+
+
+
+.story .left img {
+    width: 30%;
+}
+
+.story .left {
+    width: 60%;
+    margin-right: 5%;
+    float: left;
+}
+
+
+.news .left img {
+    width: 30%;
+}
+
+.news .left {
+    width: 60%;
+    margin-right: 5%;
+    float: left;
+}
+
+.article .artimage {
+    float: left: 30%;
+    margin-right: 5%;
+}
+
+.article .artdesc {
+    float: left;
+    width: 65%;
+}
+
+.aboutmain {
+    width: 60%;
+    margin-right: 5%;
+    float: left;
+}
+
+.about ul li {
+    width: 25%;
+    margin-right: 5%;
+    float: left;
+    padding-left: 1em;
+}
+
+.about ul li:nth-child(4) {
+    clear: left;
+}
+
+}
+
+/*
+###########################
+End of Desktop View Changes
+###########################
+*/
+
+
+
+
+/*
+###########################
+Tablet View Changes
+###########################
+*/
+
+@media screen and (min-width: 47.5em) and (max-width: 60em){
+
+.content-products ul li {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.content-products ul li:nth-child(3) {
+    clear: left;
+}
+
+.content-products ul li:nth-child(5) {
+    clear: left;
+}
+}
+
+/* Products Page */
+
+
+}
+
+
+
+
+
